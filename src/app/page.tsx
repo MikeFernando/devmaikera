@@ -13,7 +13,7 @@ export default function Home() {
           href="#"
           className="mt-4 block rounded-full bg-[#2a85ff] px-6 py-3 font-medium text-white shadow-blue-500/50 hover:bg-[#2a86ffd7]  hover:transition-colors "
         >
-          All projects
+          Check this 👇
         </a>
       </div>
     </main>

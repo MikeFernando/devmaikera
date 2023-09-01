@@ -9,7 +9,7 @@ import { DarkMode } from '@/components/ButtonDarkMode/DarkMode'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dev | Mike Fernando ',
+  title: 'UX/UI Developer | Mike Fernando',
   description:
     'Portfolio of a software developer passionate about creating sophisticated digital experiences and turning creative visions into interactive reality!',
 }
@@ -34,16 +34,36 @@ export default function RootLayout({
               </div>
               <nav className="text-md flex list-none gap-12 text-white">
                 <li>
-                  <a href="#">Home</a>
+                  <a
+                    className="hover:text-zinc-300 hover:transition-colors"
+                    href="#"
+                  >
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Experience</a>
+                  <a
+                    className="hover:text-zinc-300 hover:transition-colors"
+                    href="#"
+                  >
+                    Experience
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Education</a>
+                  <a
+                    className="hover:text-zinc-300 hover:transition-colors"
+                    href="#"
+                  >
+                    Education
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Skills</a>
+                  <a
+                    className="hover:text-zinc-300 hover:transition-colors"
+                    href="#"
+                  >
+                    Skills
+                  </a>
                 </li>
               </nav>
               <DarkMode />
