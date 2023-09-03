@@ -1,15 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
 import { Wand2, Code2, Book } from 'lucide-react'
-
-import caravan from '@/assets/parceiros/caravan.svg'
-import dogs from '@/assets/parceiros/dogs.svg'
-import flexblog from '@/assets/parceiros/flexblog.svg'
-import handel from '@/assets/parceiros/handel.svg'
-import lescone from '@/assets/parceiros/lescone.svg'
-import ranek from '@/assets/parceiros/ranek.svg'
-import surfbot from '@/assets/parceiros/surfbot.svg'
-import wildbeast from '@/assets/parceiros/wildbeast.svg'
 
 export const Skills = () => {
   return (
