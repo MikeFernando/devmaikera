@@ -10,7 +10,7 @@ export const Skills = () => {
       <span className="text-center text-2xl text-varianteBlue">
         Hi, I’m Mike Fernando. Nice to meet you.
       </span>
-      <p className="mx-auto mb-10 mt-5 max-w-2xl text-center text-base font-normal text-zinc-900">
+      <p className="mx-auto mb-10 mt-5 max-w-2xl text-center text-xl font-normal text-zinc-500">
         Since I started my journey in 2020 I have been working continuously to
         improve my skills and excel, looking for new problem solvers
         collaborating as a team to create efficient and innovative software
@@ -19,7 +19,7 @@ export const Skills = () => {
 
       <ul className="text group mx-auto flex gap-8">
         <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
             <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Wand2 className="text-white" />
             </div>
@@ -30,7 +30,7 @@ export const Skills = () => {
             </p>
           </div>
 
-          <ul className="max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
+          <ul className="mt-4 max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
             <li className="flex items-center space-x-3">
               <svg
                 className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
@@ -177,7 +177,7 @@ export const Skills = () => {
         </li>
 
         <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
             <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Code2 className="text-white" />
             </div>
@@ -188,7 +188,7 @@ export const Skills = () => {
             </p>
           </div>
 
-          <ul className="max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
+          <ul className="mt-4 max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
             <li className="flex items-center space-x-3">
               <svg
                 className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
@@ -335,7 +335,7 @@ export const Skills = () => {
         </li>
 
         <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
             <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Book className="text-white" />
             </div>
@@ -346,7 +346,7 @@ export const Skills = () => {
             </p>
           </div>
 
-          <ul className="max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
+          <ul className="mt-4 max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
             <li className="flex items-center space-x-3">
               <svg
                 className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
@@ -495,16 +495,3 @@ export const Skills = () => {
     </section>
   )
 }
-
-/* <div className="my-5 text-center">
-<span className="text-varianteBlue">Things I enjoy designing:</span>
-<p className="text-sm">UX, UI, Web, Apps</p>
-</div>
-
-<div className="mb-4 text-center">
-<p className="mb-1 text-varianteBlue">Design Tools:</p>
-<p>Affinity Designer</p>
-<p>Figma</p>
-<p>Font Awesome</p>
-<p>Pen & Paper</p>
-</div> */

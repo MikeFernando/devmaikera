@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import img from '@/assets/main.png'
 import { Skills } from '@/components/Skills'
+import { Experience } from '@/components/Experience'
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       </main>
 
       <Skills />
+      <Experience />
     </>
   )
 }

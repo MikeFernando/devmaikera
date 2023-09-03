@@ -22,8 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <body className={inter.className}>
-        <div className="overflow-hidden bg-[#fff]">
-          <header className="h-28 w-full bg-[#fff] px-4 py-3">
+        <div className="overflow-hidden bg-white">
+          <header className="h-28 w-full bg-white px-4 py-3">
             <div className="relative mx-auto flex max-w-7xl items-center justify-between py-4">
               <div className="h-14 w-14 rounded-full border-2 border-zinc-400">
                 <Image
