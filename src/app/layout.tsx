@@ -46,6 +46,14 @@ export default function RootLayout({
                     className="hover:text-zinc-500 hover:transition-colors"
                     href="#"
                   >
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="hover:text-zinc-500 hover:transition-colors"
+                    href="#"
+                  >
                     Experience
                   </a>
                 </li>
@@ -55,14 +63,6 @@ export default function RootLayout({
                     href="#"
                   >
                     Education
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="hover:text-zinc-500 hover:transition-colors"
-                    href="#"
-                  >
-                    Skills
                   </a>
                 </li>
               </nav>

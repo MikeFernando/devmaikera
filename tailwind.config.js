@@ -11,7 +11,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-
+      colors: {
+        varianteBlue: '#2a85ff',
+        varianteBlueHover: '#2a86ffd7',
+      },
       boxShadow: {
         darkMode: 'inset 0px 5px 15px rgba(0, 0, 0, 0.4)',
         lightMode: 'inset 0px 5px 15px rgba(255, 255, 255, 0.4)',
