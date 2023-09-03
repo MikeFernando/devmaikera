@@ -16,10 +16,11 @@ export const Skills = () => {
         collaborating as a team to create efficient and innovative software
         solutions.
       </p>
+
       <ul className="text group mx-auto flex gap-8">
         <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
           <div className="flex flex-col items-center justify-center">
-            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-varianteBlue">
+            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Wand2 className="text-white" />
             </div>
             <h3 className="mb-4 text-2xl">Designer</h3>
@@ -29,23 +30,155 @@ export const Skills = () => {
             </p>
           </div>
 
-          <div className="my-5 text-center">
-            <span className="text-varianteBlue">Things I enjoy designing:</span>
-            <p className="text-sm">UX, UI, Web, Apps</p>
-          </div>
+          <ul className="max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>UI Design</span>
+            </li>
 
-          <div className="mb-4 text-center">
-            <p className="mb-1 text-varianteBlue">Design Tools:</p>
-            <p>Affinity Designer</p>
-            <p>Figma</p>
-            <p>Font Awesome</p>
-            <p>Pen & Paper</p>
-          </div>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>UX Design</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Wireframe</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Typography</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Colors in Interfaces</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>
+                Protótipo:{' '}
+                <span className="font-semibold text-gray-900 dark:text-white">
+                  product
+                </span>
+              </span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>
+                Digital Interfaces:{' '}
+                <span className="font-semibold text-gray-900 dark:text-white">
+                  web & mobile
+                </span>
+              </span>
+            </li>
+          </ul>
         </li>
 
         <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
           <div className="flex flex-col items-center justify-center">
-            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-varianteBlue shadow-md">
+            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Code2 className="text-white" />
             </div>
             <h3 className="mb-4 text-2xl">Frontend Developer</h3>
@@ -55,23 +188,155 @@ export const Skills = () => {
             </p>
           </div>
 
-          <div className="my-5 text-center">
-            <span className="text-varianteBlue">Framework:</span>
-            <p>NextJs, React-Native, Tailwindcss</p>
-          </div>
+          <ul className="max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Html</span>
+            </li>
 
-          <div className="mb-4 text-center">
-            <p className="mb-1 text-varianteBlue">Technologies:</p>
-            <p>Html</p>
-            <p>Css</p>
-            <p>Javascript ES6</p>
-            <p>Typescript</p>
-          </div>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>CSS | tailwindcss | css-in-js</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Javascript ES6+</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Typescript</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>React | NextJS</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>
+                React-Native:{' '}
+                <span className="font-semibold text-gray-900 dark:text-white">
+                  Expo & CLI
+                </span>
+              </span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>
+                Git:{' '}
+                <span className="font-semibold text-gray-900 dark:text-white">
+                  GitFlow
+                </span>
+              </span>
+            </li>
+          </ul>
         </li>
 
         <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
           <div className="flex flex-col items-center justify-center">
-            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-varianteBlue shadow-md">
+            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Book className="text-white" />
             </div>
             <h3 className="mb-4 text-2xl">Mentor</h3>
@@ -81,20 +346,165 @@ export const Skills = () => {
             </p>
           </div>
 
-          <div className="my-5 text-center">
-            <span className="text-varianteBlue">Highlights:</span>
-            <p className="text-sm">Contributions to the Team</p>
-          </div>
+          <ul className="max-w-md list-inside space-y-1 text-gray-500 dark:text-gray-400">
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Contributions to the Team</span>
+            </li>
 
-          <div className="mb-4 text-center">
-            <p className="mb-1 text-varianteBlue">Side effects:</p>
-            <p>Innovations and Improvements</p>
-            <p>Problem solving</p>
-            <p>Goals achieved</p>
-            <p>Recognition</p>
-          </div>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Innovations and Improvements</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Problem solving</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Goals achieved</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Recognition</span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>
+                Balance:{' '}
+                <span className="font-semibold text-gray-900 dark:text-white">
+                  healthy work-life balance
+                </span>
+              </span>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <svg
+                className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>
+                Updating Skills:{' '}
+                <span className="font-semibold text-gray-900 dark:text-white">
+                  latest tech trends
+                </span>
+              </span>
+            </li>
+          </ul>
         </li>
       </ul>
     </section>
   )
 }
+
+/* <div className="my-5 text-center">
+<span className="text-varianteBlue">Things I enjoy designing:</span>
+<p className="text-sm">UX, UI, Web, Apps</p>
+</div>
+
+<div className="mb-4 text-center">
+<p className="mb-1 text-varianteBlue">Design Tools:</p>
+<p>Affinity Designer</p>
+<p>Figma</p>
+<p>Font Awesome</p>
+<p>Pen & Paper</p>
+</div> */
