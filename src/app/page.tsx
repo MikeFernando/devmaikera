@@ -19,16 +19,10 @@ export default function Home() {
           </p>
           <button
             type="button"
-            className="my-4 mb-10 mr-2 rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 px-6 py-3 text-center text-sm font-medium text-white shadow-lg shadow-blue-500/50 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300 dark:shadow-lg dark:shadow-blue-800/80 dark:focus:ring-blue-800 "
+            className="text-normal mr-2 mt-8 rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 px-6 py-4 text-center font-medium text-white shadow-lg shadow-blue-500/50 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300 dark:shadow-lg dark:shadow-blue-800/80 dark:focus:ring-blue-800 "
           >
             See website 👇
           </button>
-          {/* <a
-            href="#"
-            className="block px-6 py-3 my-4 mb-10 font-medium text-white rounded-full bg-varianteBlue shadow-blue-500/50 hover:bg-varianteBlueHover hover:transition-colors "
-          >
-            See website 👇
-          </a> */}
         </div>
 
         <div className="h-[825px] rounded-3xl px-8">

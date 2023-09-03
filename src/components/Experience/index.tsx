@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Experience = () => {
   return (
-    <section className="mx-auto mt-8 flex min-h-screen max-w-7xl flex-col px-5">
+    <section className="mx-auto mt-16 flex min-h-screen max-w-7xl flex-col px-5">
       <div className="flex items-center gap-28">
         <h2 className="max-w-xs break-all font-montserrat text-9xl font-extrabold uppercase tracking-wider text-neutral-800">
           Experience
@@ -16,7 +16,7 @@ export const Experience = () => {
             </p>
 
             {/* <!-- [2020] --> */}
-            <div className="relative mb-5 flex gap-5 rounded bg-gray-100">
+            <div className="relative mb-5 flex gap-5 rounded bg-gray-50 shadow-md">
               <div className="w-96 flex-col p-5 font-montserrat">
                 <span className="absolute -left-[56px] top-[23px] text-sm">
                   2020
@@ -50,7 +50,7 @@ export const Experience = () => {
             </div>
 
             {/* <!-- [2021] --> */}
-            <div className="relative mb-5 flex gap-5 rounded bg-gray-100 ">
+            <div className="relative mb-5 flex gap-5 rounded bg-gray-50 shadow-md ">
               <div className=" w-96 flex-col gap-y-[10px] p-5 font-montserrat">
                 <span className="absolute -left-[56px] top-[23px] text-sm">
                   2021
@@ -92,7 +92,7 @@ export const Experience = () => {
             </div>
 
             {/* <!-- [2023] --> */}
-            <div className="relative mb-5 flex gap-5 rounded bg-gray-100 ">
+            <div className="relative mb-5 flex gap-5 rounded bg-gray-50 shadow-md ">
               <div className="w-96 flex-col gap-y-[10px] p-5 font-montserrat">
                 <span className="absolute -left-[56px] top-[23px] text-sm">
                   2023

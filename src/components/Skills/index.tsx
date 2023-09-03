@@ -18,7 +18,7 @@ export const Skills = () => {
       </p>
 
       <ul className="text group mx-auto flex gap-8">
-        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
+        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
           <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
             <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Wand2 className="text-white" />
@@ -176,7 +176,7 @@ export const Skills = () => {
           </ul>
         </li>
 
-        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
+        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
           <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
             <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Code2 className="text-white" />
@@ -334,7 +334,7 @@ export const Skills = () => {
           </ul>
         </li>
 
-        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-100 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
+        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
           <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
             <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Book className="text-white" />
