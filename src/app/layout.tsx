@@ -1,7 +1,7 @@
 import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import Image from 'next/image'
+import { Inter } from 'next/font/google'
+import type { Metadata } from 'next'
 
 import Logo from '@/assets/logo.png'
 import { DarkMode } from '@/components/ButtonDarkMode/DarkMode'
@@ -9,7 +9,7 @@ import { DarkMode } from '@/components/ButtonDarkMode/DarkMode'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'UX/UI Developer | Mike Fernando',
+  title: 'Dev | Mike Fernando',
   description:
     'Portfolio of a software developer passionate about creating sophisticated digital experiences and turning creative visions into interactive reality!',
 }
@@ -22,8 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <body className={inter.className}>
-        <div className="bg-[#25282e]">
-          <header className="h-28 w-full bg-[#25282e] px-4 py-3">
+        <div className="overflow-hidden bg-[#fff]">
+          <header className="h-28 w-full bg-[#fff] px-4 py-3">
             <div className="relative mx-auto flex max-w-7xl items-center justify-between py-4">
               <div className="h-14 w-14 rounded-full border-2 border-zinc-400">
                 <Image
@@ -32,10 +32,10 @@ export default function RootLayout({
                   className="block overflow-hidden rounded-full"
                 />
               </div>
-              <nav className="text-md flex list-none gap-12 text-white">
+              <nav className="text-md flex list-none gap-12 text-zinc-900">
                 <li>
                   <a
-                    className="hover:text-zinc-300 hover:transition-colors"
+                    className="hover:text-zinc-500 hover:transition-colors"
                     href="#"
                   >
                     Home
@@ -43,7 +43,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    className="hover:text-zinc-300 hover:transition-colors"
+                    className="hover:text-zinc-500 hover:transition-colors"
                     href="#"
                   >
                     Experience
@@ -51,7 +51,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    className="hover:text-zinc-300 hover:transition-colors"
+                    className="hover:text-zinc-500 hover:transition-colors"
                     href="#"
                   >
                     Education
@@ -59,7 +59,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    className="hover:text-zinc-300 hover:transition-colors"
+                    className="hover:text-zinc-500 hover:transition-colors"
                     href="#"
                   >
                     Skills

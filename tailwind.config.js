@@ -1,7 +1,9 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
-  content: ['./src/**/*.tsx'],
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}' /* src folder, for example */,
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -12,6 +14,7 @@ const config: Config = {
 
       boxShadow: {
         darkMode: 'inset 0px 5px 15px rgba(0, 0, 0, 0.4)',
+        lightMode: 'inset 0px 5px 15px rgba(255, 255, 255, 0.4)',
       },
       backgroundColor: {
         'gradient-light': 'bg-gradient-to-r #ffcc80 #d8860b',
@@ -19,6 +22,5 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }
-export default config
