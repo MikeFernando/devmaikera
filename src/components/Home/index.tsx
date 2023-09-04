@@ -16,7 +16,7 @@ export const Main = () => {
         </p>
         <button
           type="button"
-          className="text-normal mr-2 mt-8 rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 px-6 py-4 text-center font-medium text-white shadow-lg shadow-blue-500/50 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300 dark:shadow-lg dark:shadow-blue-800/80 dark:focus:ring-blue-800 "
+          className="text-md my-4 rounded-full bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-4 text-center font-medium text-white hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
         >
           See website 👇
         </button>

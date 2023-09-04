@@ -4,7 +4,7 @@ export const Experience = () => {
   return (
     <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
       <div className="flex items-center gap-28">
-        <h2 className="max-w-xs break-all font-montserrat text-9xl font-extrabold uppercase tracking-wider text-neutral-800">
+        <h2 className="max-w-xs break-all bg-gradient-to-tr from-gray-200 to-gray-300 bg-clip-text font-montserrat text-9xl font-extrabold uppercase tracking-wider text-transparent">
           Experience
         </h2>
         <ol className="flex-1 border-l border-gray-200 dark:border-gray-700">

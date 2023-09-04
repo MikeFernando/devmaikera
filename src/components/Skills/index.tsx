@@ -5,8 +5,8 @@ export const Skills = () => {
   return (
     <section className="mx-auto -mt-10 flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
       <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-        <span className="bg-gradient-to-r from-sky-100 to-blue-600 bg-clip-text text-transparent">
-          Hi, I’m Mike Fernando.
+        <span className="bg-gradient-to-r from-gray-100 to-black bg-clip-text text-transparent">
+          Hi, I’m Mike Fernando
         </span>{' '}
       </h1>
       <p className="mx-auto mb-10 mt-5 max-w-2xl text-center text-xl font-normal text-zinc-500">
@@ -17,9 +17,9 @@ export const Skills = () => {
       </p>
 
       <ul className="text group mx-auto flex gap-8">
-        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
+        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.95]">
           <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
-            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
+            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-600 to-blue-500 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Wand2 className="text-white" />
             </div>
             <h3 className="mb-4 text-2xl">Designer</h3>
@@ -175,9 +175,9 @@ export const Skills = () => {
           </ul>
         </li>
 
-        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
+        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.95]">
           <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
-            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
+            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-600 to-blue-500 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Code2 className="text-white" />
             </div>
             <h3 className="mb-4 text-2xl">Frontend Developer</h3>
@@ -333,9 +333,9 @@ export const Skills = () => {
           </ul>
         </li>
 
-        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-lg duration-500 hover:!scale-100 hover:!blur-none group-hover:scale-[0.85] group-hover:blur-sm ">
+        <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-8 py-12 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.95]">
           <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
-            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
+            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-600 to-blue-500 shadow-lg shadow-blue-500/50 group-hover:bg-gradient-to-br">
               <Book className="text-white" />
             </div>
             <h3 className="mb-4 text-2xl">Mentor</h3>
