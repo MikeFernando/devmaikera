@@ -3,13 +3,12 @@ import { Wand2, Code2, Book } from 'lucide-react'
 
 export const Skills = () => {
   return (
-    <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
-      <h2 className="mb-5 text-center text-5xl font-medium text-zinc-900">
-        Skills
-      </h2>
-      <span className="text-center text-2xl text-varianteBlue">
-        Hi, I’m Mike Fernando. Nice to meet you.
-      </span>
+    <section className="mx-auto -mt-10 flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
+      <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        <span className="bg-gradient-to-r from-sky-100 to-blue-600 bg-clip-text text-transparent">
+          Hi, I’m Mike Fernando.
+        </span>{' '}
+      </h1>
       <p className="mx-auto mb-10 mt-5 max-w-2xl text-center text-xl font-normal text-zinc-500">
         Since I started my journey in 2020 I have been working continuously to
         improve my skills and excel, looking for new problem solvers
