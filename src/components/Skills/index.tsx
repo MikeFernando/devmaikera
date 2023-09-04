@@ -3,7 +3,7 @@ import { Wand2, Code2, Book } from 'lucide-react'
 
 export const Skills = () => {
   return (
-    <section className="mx-auto mt-8 flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
+    <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
       <h2 className="mb-5 text-center text-5xl font-medium text-zinc-900">
         Skills
       </h2>

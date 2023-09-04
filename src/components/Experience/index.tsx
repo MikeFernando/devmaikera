@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Experience = () => {
   return (
-    <section className="mx-auto mt-16 flex min-h-screen max-w-7xl flex-col px-5">
+    <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
       <div className="flex items-center gap-28">
         <h2 className="max-w-xs break-all font-montserrat text-9xl font-extrabold uppercase tracking-wider text-neutral-800">
           Experience
@@ -66,7 +66,7 @@ export const Experience = () => {
 
               <div className="flex w-[100%] max-w-xs flex-col gap-y-[10px] p-5">
                 <h3 className="row-span-1 font-montserrat text-lg font-bold uppercase text-gray-950">
-                  Jr Developer
+                  developer web
                 </h3>
                 <ul className="flex flex-wrap gap-3">
                   <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
@@ -80,9 +80,6 @@ export const Experience = () => {
                   </li>
                   <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
                     NextJs
-                  </li>
-                  <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
-                    React Native
                   </li>
                   <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
                     Git
@@ -110,7 +107,7 @@ export const Experience = () => {
 
               <div className="flex w-[100%] max-w-xs flex-col gap-y-[10px] p-5">
                 <h3 className="row-span-1 font-montserrat text-lg font-bold uppercase text-gray-950">
-                  Jr Developer
+                  Developer web & mobile
                 </h3>
                 <ul className="flex flex-wrap gap-3">
                   <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
