@@ -22,7 +22,7 @@ module.exports = {
       boxShadow: {
         darkMode: 'inset 0px 5px 15px rgba(0, 0, 0, 0.4)',
         lightMode: 'inset 0px 5px 15px rgba(255, 255, 255, 0.4)',
-        projects: 'inset -20px 10px 20px 0px rgba(255, 255, 255, 0.3)',
+        skills: 'inset 0px -450px 0px 0px rgba(255, 255, 255, 1)',
       },
       backgroundColor: {
         'gradient-light': 'bg-gradient-to-r #ffcc80 #d8860b',

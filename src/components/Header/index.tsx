@@ -23,12 +23,12 @@ export const Header = () => {
           </li>
           <li>
             <a className="hover:text-zinc-500 hover:transition-colors" href="#">
-              Skills
+              Experience
             </a>
           </li>
           <li>
             <a className="hover:text-zinc-500 hover:transition-colors" href="#">
-              Experience
+              Skills
             </a>
           </li>
           <li>

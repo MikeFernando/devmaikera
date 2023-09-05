@@ -1,8 +1,12 @@
 import React from 'react'
 
+import henrique from '@/assets/testimonials/henrique.jpg'
+import Image from 'next/image'
+import { Testimonials } from '../Testimonials'
+
 export const Experience = () => {
   return (
-    <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-5">
+    <section className="mx-auto my-24 flex min-h-screen max-w-7xl flex-col justify-center px-5">
       <div className="flex items-center gap-28">
         <h2 className="max-w-xs break-all bg-gradient-to-tr from-gray-200 to-gray-300 bg-clip-text font-montserrat text-9xl font-extrabold uppercase tracking-wider text-transparent">
           Experience
@@ -79,7 +83,7 @@ export const Experience = () => {
                     JavaScript
                   </li>
                   <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
-                    NextJs
+                    React
                   </li>
                   <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
                     Git
@@ -142,6 +146,46 @@ export const Experience = () => {
             </div>
           </div>
         </ol>
+      </div>
+
+      <div className="flex flex-col items-center justify-center gap-5 p-4">
+        <figure className="mx-auto max-w-screen-md text-center">
+          {/* HENRIQUE */}
+          <div>
+            <figcaption className="mt-6 flex items-center justify-center space-x-3">
+              <div className="flex flex-col items-center ">
+                <Image
+                  className="mb-3 h-14 w-14 rounded-full"
+                  src={henrique}
+                  alt="profile picture"
+                />
+                <cite className="pr-3 font-medium text-gray-900 dark:text-white">
+                  Henrique Fernandes
+                </cite>
+                <cite className="pl-3 text-sm text-gray-500 dark:text-gray-400">
+                  Head of Operation | ProductHead of Operation
+                </cite>
+              </div>
+            </figcaption>
+            <cite className="text-sm text-zinc-400">
+              Henrique is senior to Mike
+            </cite>
+            <blockquote>
+              <p className="my-5 text-lg font-medium italic text-gray-700 dark:text-white">
+                &quot;I recommend Mike as a highly engaged and dedicated
+                professional. He demonstrated great commitment to his activities
+                and always sought to learn and apply new knowledge in his work
+                routine. His ability to work well in a team and contribute
+                creative solutions to the challenges presented make him a
+                valuable developer in any work environment. I&apos;m sure
+                he&apos;ll be a great addition to any team and I recommend his
+                services without hesitation. &quot;
+              </p>
+            </blockquote>
+          </div>
+        </figure>
+
+        <Testimonials />
       </div>
     </section>
   )
