@@ -3,7 +3,7 @@ import { Slider } from '../Slider'
 
 export const Main = () => {
   return (
-    <main className="mx-auto flex max-w-7xl flex-col items-center justify-between overflow-hidden rounded-3xl bg-gray-50 px-5 shadow-md">
+    <main className="mx-auto flex max-w-7xl flex-col items-center justify-between overflow-hidden rounded-3xl bg-gray-50 px-5 shadow-md md:mt-28">
       <div className="flex flex-col items-center">
         <h1 className="pt-10 text-center text-6xl font-bold leading-tight tracking-wide text-zinc-800">
           Software Engineer <br /> web & Mobile{' '}
