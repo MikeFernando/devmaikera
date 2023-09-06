@@ -14,8 +14,8 @@ export const Header = () => {
   }
 
   return (
-    <header className="fixed z-50 h-28 w-full bg-white px-4 py-3">
-      <div className="mx-auto flex max-w-7xl items-center justify-between py-4">
+    <header className="fixed z-50 w-full bg-white md:h-20 md:pt-4 lg:h-28 lg:pt-6">
+      <div className="mx-auto flex items-center justify-between px-5 md:max-w-4xl lg:max-w-5xl xl:max-w-7xl ">
         <div className="h-14 w-14 rounded-full border-2 border-zinc-400">
           <Image
             src={Logo}
@@ -24,7 +24,7 @@ export const Header = () => {
           />
         </div>
 
-        <nav className="text-md list-none gap-12 text-zinc-900 sm:flex">
+        <nav className="list-none gap-12 text-zinc-900 sm:flex md:text-sm lg:text-base">
           <li>
             <a className="hover:text-zinc-500 hover:transition-colors" href="#">
               Home
