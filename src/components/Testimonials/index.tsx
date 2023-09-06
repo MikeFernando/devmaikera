@@ -23,7 +23,6 @@ export function Testimonials() {
       setLoaded(true)
     },
   })
-  console.log(sliderRef)
 
   return (
     <>
@@ -53,15 +52,10 @@ export function Testimonials() {
 
                 <blockquote>
                   <p className="my-5 text-lg font-medium italic text-gray-700 dark:text-white">
-                    &quot;I recommend Mike as a highly engaged and dedicated
-                    professional. He demonstrated great commitment to his
-                    activities and always sought to learn and apply new
-                    knowledge in his work routine. His ability to work well in a
-                    team and contribute creative solutions to the challenges
-                    presented make him a valuable developer in any work
-                    environment. I&apos;m sure he&apos;ll be a great addition to
-                    any team and I recommend his services without hesitation.
-                    &quot;
+                    Mike is an excellent professional, engaged, super
+                    analytical, hardworking, communicative and many other skills
+                    that make him a professional who fits any type of
+                    project/challenge.
                   </p>
                 </blockquote>
               </div>
