@@ -1,6 +1,8 @@
 import React from 'react'
 import { Wand2, Code2, Book } from 'lucide-react'
 
+import { IconCheck } from './IconCheck'
+
 export const Skills = () => {
   return (
     <div className="shadow-skills bg-gradient-to-br from-blue-700 to-purple-600 ">
@@ -30,116 +32,32 @@ export const Skills = () => {
 
             <ul className="mt-4 max-w-md list-inside space-y-3 text-sm text-gray-500 dark:text-gray-400">
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>UI Design</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>UX Design</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Wireframe</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Typography</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Colors in Interfaces</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>
                   Protótipo:{' '}
                   <span className="font-semibold text-gray-900 dark:text-white">
@@ -149,21 +67,7 @@ export const Skills = () => {
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>
                   Digital Interfaces:{' '}
                   <span className="font-semibold text-gray-900 dark:text-white">
@@ -188,116 +92,32 @@ export const Skills = () => {
 
             <ul className="mt-4 max-w-md list-inside space-y-3 text-sm text-gray-500 dark:text-gray-400">
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Html</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>CSS | tailwindcss | css-in-js</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Javascript ES6+</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Typescript</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>React | NextJS</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>
                   React-Native:{' '}
                   <span className="font-semibold text-gray-900 dark:text-white">
@@ -307,21 +127,7 @@ export const Skills = () => {
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>
                   Git:{' '}
                   <span className="font-semibold text-gray-900 dark:text-white">
@@ -346,116 +152,32 @@ export const Skills = () => {
 
             <ul className="mt-4 max-w-md list-inside space-y-3 text-sm text-gray-500 dark:text-gray-400">
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Contributions to the Team</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Innovations and Improvements</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Problem solving</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Goals achieved</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>Recognition</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>
                   Balance:{' '}
                   <span className="font-semibold text-gray-900 dark:text-white">
@@ -465,21 +187,7 @@ export const Skills = () => {
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="h-3.5 w-3.5 flex-shrink-0 text-blue-500 dark:text-blue-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
+                <IconCheck className="h-4 w-4 text-blue-500" />
                 <span>
                   Updating Skills:{' '}
                   <span className="font-semibold text-gray-900 dark:text-white">

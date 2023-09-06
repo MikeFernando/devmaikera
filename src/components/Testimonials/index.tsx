@@ -23,7 +23,6 @@ export function Testimonials() {
       setLoaded(true)
     },
   })
-  console.log(sliderRef)
 
   return (
     <>
