@@ -1,5 +1,8 @@
+'use client'
+
 import React from 'react'
-import { Slider } from '../Slider'
+import { SliderDesktop } from '../Slider/Desktop'
+import { MobileSlider } from '../Slider/Mobile'
 
 export const Main = () => {
   return (
@@ -20,8 +23,14 @@ export const Main = () => {
         </button>
       </div>
 
-      <div className="flex md:pl-[300px] lg:px-8">
-        <Slider />
+      {/* Mobile */}
+      <div className="visible pb-8 lg:hidden">
+        <MobileSlider />
+      </div>
+
+      {/* Desktop slider */}
+      <div className="hidden pb-6 lg:flex lg:px-8">
+        <SliderDesktop />
       </div>
     </main>
   )

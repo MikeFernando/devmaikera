@@ -28,6 +28,22 @@ module.exports = {
         'gradient-light': 'bg-gradient-to-r #ffcc80 #d8860b',
         'gradient-dark': 'bg-gradient-to-r #777 #3a3a3a',
       },
+      animation: {
+        arrow: 'animate 1s infinite',
+      },
+      keyframes: {
+        animate: {
+          '0%': {
+            opacity: '0',
+            transform: 'rotate(45deg) translate(-20px, -20px)',
+          },
+          '50%': { opacity: '1' },
+          '100%': {
+            opacity: '0',
+            transform: 'rotate(45deg) translate(20px, 20px)',
+          },
+        },
+      },
     },
   },
   plugins: [require('flowbite/plugin')],

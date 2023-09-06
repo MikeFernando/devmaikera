@@ -11,7 +11,7 @@ import bikecraft from '@/assets/projects/bikecraft-capa.png'
 import wordtrip from '@/assets/projects/wortrip-capa.png'
 import untitledui from '@/assets/projects/untitledui-capa.png'
 
-export const Slider = () => {
+export const SliderDesktop = () => {
   const [sliderRef] = useKeenSlider({
     slides: {
       perView: 1.5,
