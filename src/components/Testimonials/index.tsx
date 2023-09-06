@@ -27,7 +27,7 @@ export function Testimonials() {
   return (
     <>
       <div className="navigation-wrapper">
-        <div ref={sliderRef} className="keen-slider">
+        <div ref={sliderRef} className="keen-slider -mb-16 -mt-24 ">
           <div className="keen-slider__slide number-slide">
             <figure className="flex max-w-2xl items-center justify-center text-center">
               <div>

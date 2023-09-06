@@ -6,7 +6,7 @@ import { MobileSlider } from '../Slider/Mobile'
 
 export const Main = () => {
   return (
-    <main className="mx-auto flex flex-col items-center justify-between overflow-hidden rounded-3xl bg-gray-50 px-5 shadow-md md:mt-24 md:max-w-2xl lg:mt-28 lg:max-w-5xl xl:max-w-7xl">
+    <main className="mx-12 flex flex-col items-center justify-between overflow-hidden rounded-3xl bg-gray-50 px-5 shadow-md md:mt-24 lg:mx-auto lg:mt-28 lg:max-w-5xl xl:max-w-7xl">
       <div className="flex flex-col items-center">
         <h1 className="pt-10 text-center font-bold leading-tight tracking-wide text-zinc-800 md:text-4xl lg:text-5xl xl:text-6xl">
           Software Engineer <br /> web & Mobile{' '}

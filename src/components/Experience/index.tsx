@@ -5,14 +5,14 @@ import { Testimonials } from '../Testimonials'
 export const Experience = () => {
   return (
     <>
-      <section className="mx-auto -mb-32 flex min-h-screen max-w-7xl flex-col justify-center px-5">
-        <div className="flex items-center gap-28">
-          <h2 className="max-w-xs break-all bg-gradient-to-tr from-gray-200 to-gray-300 bg-clip-text font-montserrat text-9xl font-extrabold uppercase tracking-wider text-transparent">
+      <section className="mx-auto flex min-h-screen flex-col items-center justify-center p-5 lg:-mb-32 lg:max-w-7xl">
+        <div className="flex flex-col items-center justify-center text-4xl font-bold leading-tight lg:flex lg:flex-row lg:items-center lg:gap-28">
+          <h2 className="bg-gradient-to-tr from-gray-200 to-gray-300 bg-clip-text font-montserrat font-extrabold uppercase text-transparent lg:max-w-xs lg:break-all lg:text-9xl lg:tracking-wider">
             Experience
           </h2>
-          <ol className="group flex-1 border-l border-gray-200 dark:border-gray-700">
-            <div className="p-5">
-              <p className="mb-8 text-xl font-normal text-zinc-500">
+          <ol className="group mt-6 dark:border-gray-700 lg:mt-0 lg:flex-1 lg:border-l lg:border-gray-200">
+            <div className="flex-1 flex-col items-center justify-center pl-20 pr-5">
+              <p className="mx-auto mb-8 text-center text-base font-normal text-zinc-500 lg:text-xl">
                 During my time at Pixter Technologies I&apos;ve had the
                 opportunity to work on challenging projects, learn from
                 incredibly talented people and build friendships.
@@ -21,7 +21,7 @@ export const Experience = () => {
               {/* <!-- [2020] --> */}
               <div className="relative mb-5 flex gap-5 rounded bg-gray-50 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99]">
                 <div className="w-96 flex-col p-5 font-montserrat">
-                  <span className="absolute -left-[56px] top-[23px] text-sm">
+                  <span className="absolute -left-[56px] top-[23px] text-sm font-normal">
                     2020
                   </span>
                   <h3 className="mb-[10px] from-blue-600 to-blue-200 text-lg font-bold text-gray-950 before:absolute before:-left-1 before:top-6 before:block before:h-5 before:w-1 before:bg-gradient-to-b">
@@ -35,17 +35,17 @@ export const Experience = () => {
                 </div>
 
                 <div className="flex w-[100%] max-w-xs flex-col gap-y-[10px] p-5">
-                  <h3 className="row-span-1 font-montserrat text-lg font-bold uppercase text-gray-950">
+                  <h3 className="font-montserrat text-lg font-bold uppercase text-gray-950">
                     Beginner
                   </h3>
                   <ul className="flex flex-wrap gap-3">
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       HTML
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       CSS
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       JavaScript
                     </li>
                   </ul>
@@ -55,7 +55,7 @@ export const Experience = () => {
               {/* <!-- [2021] --> */}
               <div className="relative mb-5 flex gap-5 rounded bg-gray-50 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] ">
                 <div className=" w-96 flex-col gap-y-[10px] p-5 font-montserrat">
-                  <span className="absolute -left-[56px] top-[23px] text-sm">
+                  <span className="absolute -left-[56px] top-[23px] text-sm font-normal">
                     2021
                   </span>
                   <h3 className="mb-[10px] from-blue-600 to-blue-200 text-lg font-bold text-gray-950 before:absolute before:-left-1 before:top-6 before:block before:h-5 before:w-1 before:bg-gradient-to-b">
@@ -72,19 +72,19 @@ export const Experience = () => {
                     developer web
                   </h3>
                   <ul className="flex flex-wrap gap-3">
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       HTML
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       CSS
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       JavaScript
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       React
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       Git
                     </li>
                   </ul>
@@ -94,7 +94,7 @@ export const Experience = () => {
               {/* <!-- [2023] --> */}
               <div className="relative mb-5 flex gap-5 rounded bg-gray-50 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] ">
                 <div className="w-96 flex-col gap-y-[10px] p-5 font-montserrat">
-                  <span className="absolute -left-[56px] top-[23px] text-sm">
+                  <span className="absolute -left-[56px] top-[23px] text-sm font-normal">
                     2023
                   </span>
                   <h3 className="mb-[10px] from-blue-600 to-blue-200 text-lg font-bold text-gray-950 before:absolute before:-left-1 before:top-6 before:block before:h-5 before:w-1 before:bg-gradient-to-b">
@@ -113,31 +113,31 @@ export const Experience = () => {
                     Developer web & mobile
                   </h3>
                   <ul className="flex flex-wrap gap-3">
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       HTML
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       CSS
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       JavaScript
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       UX Design
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       UI Design
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       NextJs
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       React Native
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       Git
                     </li>
-                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs uppercase">
+                    <li className="rounded bg-white px-4 py-1 font-montserrat text-xs font-normal uppercase">
                       Tailwindcss
                     </li>
                   </ul>
