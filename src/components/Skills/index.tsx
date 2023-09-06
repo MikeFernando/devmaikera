@@ -5,7 +5,7 @@ import { IconCheck } from './IconCheck'
 
 export const Skills = () => {
   return (
-    <div className="shadow-skills bg-gradient-to-br from-blue-700 to-purple-600 ">
+    <div className="bg-gradient-to-br from-blue-700 to-purple-600 shadow-skills ">
       <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center pt-16">
         <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
           <span className="text-white">Hi, I’m Mike Fernando</span>{' '}

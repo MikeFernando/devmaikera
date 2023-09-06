@@ -24,12 +24,14 @@ export const Slider = () => {
         ref={sliderRef}
         className="keen-slider my-14 ml-[22%] flex w-[100%] max-w-[calc(1280px-((1280px-1280px)/2))] px-5"
       >
-        <div className="group flex gap-10 shadow-projects">
+        <div className="flex gap-10 shadow-projects group">
           <div>
             <Image
               className="keen-slider__slide rounded-2xl "
               src={spiderman}
               alt="imagem 2"
+              width={850}
+              priority
             />
           </div>
           <div>
@@ -37,6 +39,8 @@ export const Slider = () => {
               className="keen-slider__slide rounded-2xl"
               src={apple}
               alt="imagem 2"
+              width={850}
+              priority
             />
           </div>
           <div>
@@ -44,6 +48,8 @@ export const Slider = () => {
               className="keen-slider__slide rounded-2xl"
               src={bikecraft}
               alt="imagem 2"
+              width={850}
+              priority
             />
           </div>
           <div>
@@ -51,6 +57,8 @@ export const Slider = () => {
               className="keen-slider__slide rounded-2xl"
               src={wordtrip}
               alt="imagem 2"
+              width={850}
+              priority
             />
           </div>
           <div>
@@ -58,6 +66,8 @@ export const Slider = () => {
               className="keen-slider__slide rounded-2xl"
               src={untitledui}
               alt="imagem 2"
+              width={850}
+              priority
             />
           </div>
           <div className="keen-slider__slide" />
