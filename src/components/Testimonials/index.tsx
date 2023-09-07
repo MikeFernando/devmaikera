@@ -31,27 +31,27 @@ export function Testimonials() {
           <div className="keen-slider__slide number-slide">
             <figure className="flex max-w-2xl items-center justify-center text-center">
               <div>
-                <figcaption className="mt-6 flex items-center justify-center space-x-3">
+                <figcaption className="mt-14 flex items-center justify-center space-x-3">
                   <div className="flex flex-col items-center ">
                     <Image
                       className="mb-3 h-20 w-20 rounded-full"
                       src={henrique}
                       alt="profile picture"
                     />
-                    <cite className="pr-3 text-2xl font-medium text-gray-900 dark:text-white">
+                    <cite className="pr-3 text-lg font-medium text-gray-900 dark:text-white lg:text-2xl">
                       Henrique Fernandes
                     </cite>
-                    <cite className="pl-3 text-sm text-gray-500 dark:text-gray-400">
+                    <cite className="pl-3 text-xs text-gray-500 dark:text-gray-400 lg:text-sm">
                       Head of Operation | ProductHead of Operation
                     </cite>
-                    <cite className="text-sm text-zinc-400">
+                    <cite className="text-xs text-zinc-400 lg:text-sm">
                       Henrique is senior to Mike
                     </cite>
                   </div>
                 </figcaption>
 
                 <blockquote>
-                  <p className="my-5 text-lg font-medium italic text-gray-700 dark:text-white">
+                  <p className="my-5 px-5 text-base font-medium italic text-gray-700 dark:text-white lg:text-lg">
                     Mike is an excellent professional, engaged, super
                     analytical, hardworking, communicative and many other skills
                     that make him a professional who fits any type of
@@ -65,28 +65,28 @@ export function Testimonials() {
           <div className="keen-slider__slide number-slide">
             <figure className="flex max-w-2xl items-center justify-center text-center">
               <div>
-                <figcaption className="mt-6 flex items-center justify-center space-x-3">
+                <figcaption className="mt-14 flex items-center justify-center space-x-3">
                   <div className="flex flex-col items-center ">
                     <Image
                       className="mb-3 h-20 w-20 rounded-full"
                       src={murilo}
                       alt="profile picture"
                     />
-                    <cite className="pr-3 text-2xl font-medium text-gray-900 dark:text-white">
+                    <cite className="pr-3 text-lg font-medium text-gray-900 dark:text-white lg:text-2xl">
                       Murilo Cunha
                     </cite>
-                    <cite className="pl-3 text-sm text-gray-500 dark:text-gray-400">
+                    <cite className="pl-3 text-xs text-gray-500 dark:text-gray-400 lg:text-sm">
                       Front-end Developer @Verx Tecnologia e Inovação | Serasa
-                      Experian
+                      Experian text-xs lg:{' '}
                     </cite>
-                    <cite className="text-sm text-zinc-400">
+                    <cite className="text-xs text-zinc-400 lg:text-sm">
                       Murilo is senior to Mike
                     </cite>
                   </div>
                 </figcaption>
 
                 <blockquote>
-                  <p className="my-5 text-lg font-medium italic text-gray-700 dark:text-white">
+                  <p className="my-5 px-5 text-base font-medium italic text-gray-700 dark:text-white lg:text-lg">
                     &quot;I recommend Mike as a highly engaged and dedicated
                     professional. He demonstrated great commitment to his
                     activities and always sought to learn and apply new
@@ -105,27 +105,27 @@ export function Testimonials() {
           <div className="keen-slider__slide number-slide">
             <figure className="flex max-w-2xl items-center justify-center text-center">
               <div>
-                <figcaption className="mt-6 flex items-center justify-center space-x-3">
+                <figcaption className="mt-14 flex items-center justify-center space-x-3">
                   <div className="flex flex-col items-center ">
                     <Image
                       className="mb-3 h-20 w-20 rounded-full"
                       src={fernanda}
                       alt="profile picture"
                     />
-                    <cite className="pr-3 text-2xl font-medium text-gray-900 dark:text-white">
+                    <cite className="pr-3 text-lg font-medium text-gray-900 dark:text-white lg:text-2xl">
                       Fernanda Monteiro
                     </cite>
-                    <cite className="pl-3 text-sm text-gray-500 dark:text-gray-400">
+                    <cite className="pl-3 text-xs text-gray-500 dark:text-gray-400 lg:text-sm">
                       People & Culture | Business Partner | HRBP
                     </cite>
-                    <cite className="text-sm text-zinc-400">
+                    <cite className="text-xs text-zinc-400 lg:text-sm">
                       Fernanda is directly supervising Mike
                     </cite>
                   </div>
                 </figcaption>
 
                 <blockquote>
-                  <p className="my-5 text-lg font-medium italic text-gray-700 dark:text-white">
+                  <p className="my-5 px-5 text-base font-medium italic text-gray-700 dark:text-white lg:text-lg">
                     Mike is an amazing professional! He joined the team eager to
                     learn and put what he had already studied into practice, and
                     he was excellent in everything he did. Surely, he will be
