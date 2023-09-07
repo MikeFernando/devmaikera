@@ -31,7 +31,7 @@ export const Skills = () => {
               <span className="absolute -left-4 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-green-900 dark:ring-gray-900">
                 <Wand2 className="text-white" />
               </span>
-              <h3 className="ml-2 font-medium leading-tight text-white">
+              <h3 className="mb-2 ml-2 font-medium leading-tight text-white">
                 Designer
               </h3>
               <p className="ml-2 max-w-xs text-sm">
@@ -45,7 +45,7 @@ export const Skills = () => {
               <span className="absolute -left-4 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
                 <Code2 className="text-white" />
               </span>
-              <h3 className="ml-2 font-medium leading-tight text-white">
+              <h3 className="mb-2 ml-2 font-medium leading-tight text-white">
                 Frontend Developer
               </h3>
               <p className="ml-2 max-w-xs text-sm">
@@ -60,7 +60,7 @@ export const Skills = () => {
               <span className="absolute -left-4 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
                 <Book className="text-white" />
               </span>
-              <h3 className="ml-2 font-medium leading-tight text-white">
+              <h3 className="mb-2 ml-2 font-medium leading-tight text-white">
                 Mentor
               </h3>
               <p className="ml-2 max-w-xs text-sm">

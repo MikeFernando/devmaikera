@@ -65,10 +65,10 @@ export function Testimonials() {
           <div className="keen-slider__slide number-slide">
             <figure className="flex max-w-2xl items-center justify-center text-center">
               <div>
-                <figcaption className="mt-14 flex items-center justify-center space-x-3">
+                <figcaption className="mt-16 flex items-center justify-center space-x-3">
                   <div className="flex flex-col items-center ">
                     <Image
-                      className="mb-3 h-16 w-16 rounded-full md:h-20 md:w-20"
+                      className="mb-3 mt-16 h-16 w-16 rounded-full md:mt-0 md:h-20 md:w-20"
                       src={murilo}
                       alt="profile picture"
                     />
@@ -76,8 +76,7 @@ export function Testimonials() {
                       Murilo Cunha
                     </cite>
                     <cite className="pl-3 text-xs text-gray-500 dark:text-gray-400 lg:text-sm">
-                      Front-end Developer @Verx Tecnologia e Inovação | Serasa
-                      Experian text-xs lg:{' '}
+                      Front-end Developer @Verx Tecnologia e Inovação{' '}
                     </cite>
                     <cite className="text-xs text-zinc-400 lg:text-sm">
                       Murilo is senior to Mike
