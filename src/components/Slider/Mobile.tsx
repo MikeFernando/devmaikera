@@ -24,8 +24,8 @@ export function MobileSlider() {
   return (
     <div
       ref={ref}
-      className="keen-slider relative mx-auto mt-3 py-5"
-      style={{ height: 300 }}
+      className="keen-slider relative mx-auto"
+      style={{ height: 500 }}
     >
       <div className="absolute right-3 top-[37%]">
         <span className="animate-arrow -mt-0.5 block h-5 w-5 rotate-[45deg] border-b-2 border-r-2 border-gray-200 duration-100"></span>
@@ -33,10 +33,10 @@ export function MobileSlider() {
         <span className="animate-arrow -mt-0.5 block h-5 w-5 rotate-[45deg] border-b-2 border-r-2 border-gray-400 duration-300"></span>
         <span className="animate-arrow -mt-0.5 block h-5 w-5 rotate-[45deg] border-b-2 border-r-2 border-gray-500 duration-500"></span>
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <div className="keen-slider flex w-full max-w-[calc(1280px-((1280px-1280px)/2))] flex-col px-5">
         <div>
           <Image
-            className="keen-slider__slide p-5"
+            className="keen-slider__slide flex-1 p-5"
             src={spiderman}
             alt="imagem 2"
             width={850}

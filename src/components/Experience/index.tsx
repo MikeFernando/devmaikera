@@ -6,7 +6,7 @@ export const Experience = () => {
   return (
     <>
       <section className="mx-auto flex min-h-screen flex-col items-center justify-center p-5 lg:-mb-32 lg:max-w-7xl">
-        <div className="flex flex-col items-center justify-center text-4xl font-bold leading-tight lg:flex lg:flex-row lg:items-center lg:gap-28">
+        <div className="mb-24 flex flex-col items-center justify-center text-4xl font-bold leading-tight lg:flex lg:flex-row lg:items-center lg:gap-28">
           <h2 className="bg-gradient-to-tr from-gray-200 to-gray-300 bg-clip-text font-montserrat font-extrabold uppercase text-transparent lg:max-w-xs lg:break-all lg:text-9xl lg:tracking-wider">
             Experience
           </h2>
@@ -147,8 +147,6 @@ export const Experience = () => {
           </ol>
         </div>
       </section>
-
-      <Testimonials />
     </>
   )
 }

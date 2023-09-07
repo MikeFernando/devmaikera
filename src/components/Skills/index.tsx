@@ -4,6 +4,7 @@ import React from 'react'
 import { Wand2, Code2, Book } from 'lucide-react'
 
 import { IconCheck } from './IconCheck'
+import { Testimonials } from '../Testimonials'
 
 export const Skills = () => {
   return (
@@ -224,6 +225,7 @@ export const Skills = () => {
           </div>
         </div>
       </section>
+      <Testimonials />
     </div>
   )
 }
