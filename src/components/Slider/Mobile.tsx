@@ -17,26 +17,25 @@ export function MobileSlider() {
     slides: {
       origin: 'center',
       perView: 1,
-      spacing: 20,
+      spacing: 10,
     },
     vertical: true,
   })
   return (
     <div
       ref={ref}
-      className="keen-slider relative mx-auto mt-3 py-5"
-      style={{ height: 300 }}
+      className="keen-slider xxs::h-[200px] relative mx-auto h-[300px]  lg:h-[500px]"
     >
-      <div className="absolute right-3 top-[37%]">
-        <span className="animate-arrow -mt-0.5 block h-5 w-5 rotate-[45deg] border-b-2 border-r-2 border-gray-200 duration-100"></span>
-        <span className="animate-arrow -mt-0.5 block h-5 w-5 rotate-[45deg] border-b-2 border-r-2 border-gray-300 duration-200"></span>
-        <span className="animate-arrow -mt-0.5 block h-5 w-5 rotate-[45deg] border-b-2 border-r-2 border-gray-400 duration-300"></span>
-        <span className="animate-arrow -mt-0.5 block h-5 w-5 rotate-[45deg] border-b-2 border-r-2 border-gray-500 duration-500"></span>
+      <div className="absolute right-6 top-[37%] sm:right-10">
+        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-200 duration-100 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
+        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-300 duration-200 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
+        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-400 duration-300 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
+        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-500 duration-500 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <div className="keen-slider flex w-full max-w-[calc(1280px-((1280px-1280px)/2))] flex-col px-5">
         <div>
           <Image
-            className="keen-slider__slide p-5"
+            className="keen-slider__slide px-0 sm:p-5"
             src={spiderman}
             alt="imagem 2"
             width={850}
@@ -45,7 +44,7 @@ export function MobileSlider() {
         </div>
         <div>
           <Image
-            className="keen-slider__slide p-5"
+            className="keen-slider__slide px-0 sm:p-5"
             src={apple}
             alt="imagem 2"
             width={850}
@@ -54,7 +53,7 @@ export function MobileSlider() {
         </div>
         <div>
           <Image
-            className="keen-slider__slide p-5"
+            className="keen-slider__slide px-0 sm:p-5"
             src={bikecraft}
             alt="imagem 2"
             width={850}
@@ -63,7 +62,7 @@ export function MobileSlider() {
         </div>
         <div>
           <Image
-            className="keen-slider__slide p-5"
+            className="keen-slider__slide px-0 sm:p-5"
             src={wordtrip}
             alt="imagem 2"
             width={850}
@@ -72,7 +71,7 @@ export function MobileSlider() {
         </div>
         <div>
           <Image
-            className="keen-slider__slide p-5"
+            className="keen-slider__slide px-0 sm:p-5"
             src={untitledui}
             alt="imagem 2"
             width={850}
