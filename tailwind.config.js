@@ -17,7 +17,7 @@ module.exports = {
       },
       colors: {
         varianteBlue: '#2a85ff',
-        varianteBlueHover: '#2a86ffd7',
+        varianteBlueHover: '#297ef0',
       },
       boxShadow: {
         darkMode: 'inset 0px 5px 15px rgba(0, 0, 0, 0.4)',
@@ -44,7 +44,15 @@ module.exports = {
           },
         },
       },
+      screens: {
+        xxs: '500px',
+      },
     },
   },
-  plugins: [require('flowbite/plugin')],
+  plugins: [
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    require('flowbite/plugin')({
+      charts: true,
+    }),
+  ],
 }
