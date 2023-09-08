@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 export const Main = () => {
   return (
-    <main className="xxs:h-auto mx-5 mt-24 flex h-[480px] flex-col items-center justify-between overflow-hidden rounded-3xl bg-gray-100 shadow-md md:mt-24 lg:mx-auto lg:mt-28 lg:max-w-5xl xl:max-w-7xl">
+    <main className="mx-5 mt-24 flex h-[480px] flex-col items-center justify-between overflow-hidden rounded-3xl bg-gray-100 shadow-md xxs:h-auto md:mt-24 lg:mx-auto lg:mt-28 lg:max-w-5xl xl:max-w-7xl">
       <div className="flex flex-col items-center">
         <h1 className="min-320:text-4xl mt-4 text-center text-[28px] font-bold leading-tight tracking-wide text-zinc-800 sm:pt-10 md:text-4xl lg:text-5xl xl:text-6xl">
           Software Engineer <br /> web & Mobile{' '}
@@ -19,23 +19,24 @@ export const Main = () => {
           I am passionate about creating sophisticated digital experiences and
           turning creative visions into interactive reality!
         </p>
-        <button
+        <Link
+          href="#"
           type="button"
           className="my-3 rounded-full bg-varianteBlue px-4 py-3 text-center text-xs font-medium text-white transition-all hover:bg-varianteBlueHover sm:my-4 sm:px-5 sm:py-3 md:text-sm"
         >
           See projects
-        </button>
+        </Link>
       </div>
 
       <div>
         <Image
-          className="xxs:hidden mt-5 w-full overflow-hidden"
+          className="mt-5 w-full overflow-hidden xxs:hidden"
           src={apple}
           alt="projects"
         />
       </div>
 
-      <div className="xxs:flex hidden cursor-grab pb-8">
+      <div className="hidden cursor-grab pb-8 xxs:flex">
         <MobileSlider />
       </div>
     </main>
