@@ -28,7 +28,7 @@ export const Skills = () => {
         <div className="p-10">
           <ol className="relative border-l border-gray-200 text-gray-500 dark:border-gray-700 dark:text-gray-400 lg:hidden">
             <li className="mb-10 pl-5">
-              <span className="absolute -left-4 -top-1 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-green-900 dark:ring-gray-900">
+              <span className="absolute -left-4 -top-1 flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-black to-gray-500 ring-4 ring-white dark:bg-green-900 dark:ring-gray-900">
                 <Wand2 className="w-4 text-white" />
               </span>
               <h3 className="ml-2 font-medium leading-tight text-black">
@@ -42,7 +42,7 @@ export const Skills = () => {
             </li>
 
             <li className="mb-10 pl-5">
-              <span className="absolute -left-4 flex h-8 w-8 -translate-y-[6px] items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
+              <span className="absolute -left-4 flex h-8 w-8 -translate-y-[6px] items-center justify-center rounded-full bg-gradient-to-br from-black to-gray-500 ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
                 <Code2 className="w-4 text-white" />
               </span>
               <h3 className="ml-2 font-medium leading-tight text-black">
@@ -57,7 +57,7 @@ export const Skills = () => {
             </li>
 
             <li className="mb-10 pl-5">
-              <span className="absolute -left-4 flex h-8 w-8 -translate-y-[6px] items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
+              <span className="absolute -left-4 flex h-8 w-8 -translate-y-[6px] items-center justify-center rounded-full bg-gradient-to-br from-black to-gray-500 ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
                 <Book className="w-4 text-white" />
               </span>
               <h3 className="ml-2 font-medium leading-tight text-black">

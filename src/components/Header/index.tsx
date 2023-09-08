@@ -42,7 +42,7 @@ export const Header = () => {
           </li>
           <li>
             <a className="hover:text-zinc-500 hover:transition-colors" href="#">
-              Education
+              Contact
             </a>
           </li>
         </nav>

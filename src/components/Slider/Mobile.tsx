@@ -28,9 +28,9 @@ export function MobileSlider() {
     >
       <div className="absolute right-6 top-[37%] sm:right-10">
         <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-200 duration-100 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
-        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-300 duration-200 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
-        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-400 duration-300 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
-        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-500 duration-500 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
+        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-400 duration-200 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
+        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-600 duration-300 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
+        <span className="-mt-0.5 block h-3 w-3 rotate-[45deg] animate-arrow border-b-2 border-r-2 border-gray-900 duration-500 md:h-5 md:w-5 lg:h-8 lg:w-8"></span>
       </div>
       <div className="keen-slider flex w-full max-w-[calc(1280px-((1280px-1280px)/2))] flex-col px-5">
         <div>
