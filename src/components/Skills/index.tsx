@@ -11,14 +11,14 @@ import { Mentor } from './Mentor'
 
 export const Skills = () => {
   return (
-    <div className="bg-gradient-to-br from-black to-gray-600 pb-10 lg:pb-0 lg:shadow-skills ">
+    <div className="bg-gradient-to-b from-gray-50 to-white pb-10 lg:pb-0 lg:shadow-skills ">
       <div className="mx-auto flex max-w-7xl flex-col items-center pt-16">
         <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span className="bg-gradient-to-r from-slate-600 to-gray-300 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-black to-gray-200 bg-clip-text text-transparent">
             Hi, I’m Mike Fernando
           </span>{' '}
         </h1>
-        <p className="mx-auto mb-10 mt-5 max-w-2xl px-5 text-center text-base font-normal text-zinc-200 lg:text-xl">
+        <p className="mx-auto mb-10 mt-5 max-w-2xl px-5 text-center text-base font-normal text-gray-700 lg:text-xl">
           Since I started my journey in 2020 I have been working continuously to
           improve my skills and excel, looking for new problem solvers
           collaborating as a team to create efficient and innovative software
@@ -28,13 +28,13 @@ export const Skills = () => {
         <div className="p-10">
           <ol className="relative border-l border-gray-200 text-gray-500 dark:border-gray-700 dark:text-gray-400 lg:hidden">
             <li className="mb-10 pl-5">
-              <span className="absolute -left-4 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-green-900 dark:ring-gray-900">
-                <Wand2 className="text-white" />
+              <span className="absolute -left-4 -top-1 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-green-900 dark:ring-gray-900">
+                <Wand2 className="w-4 text-white" />
               </span>
-              <h3 className="mb-2 ml-2 font-medium leading-tight text-white">
+              <h3 className="ml-2 font-medium leading-tight text-black">
                 Designer
               </h3>
-              <p className="ml-2 max-w-xs text-sm">
+              <p className="ml-2 mt-2 max-w-xs text-sm">
                 I value simple content structure, clean design patterns, and
                 thoughtful interactions.
               </p>
@@ -42,13 +42,13 @@ export const Skills = () => {
             </li>
 
             <li className="mb-10 pl-5">
-              <span className="absolute -left-4 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
-                <Code2 className="text-white" />
+              <span className="absolute -left-4 flex h-8 w-8 -translate-y-[6px] items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
+                <Code2 className="w-4 text-white" />
               </span>
-              <h3 className="mb-2 ml-2 font-medium leading-tight text-white">
+              <h3 className="ml-2 font-medium leading-tight text-black">
                 Frontend Developer
               </h3>
-              <p className="ml-2 max-w-xs text-sm">
+              <p className="ml-2 mt-2 max-w-xs text-sm">
                 Technical skills with creativity and attention to detail to
                 create interfaces that delight and captivate users.
               </p>
@@ -57,13 +57,13 @@ export const Skills = () => {
             </li>
 
             <li className="mb-10 pl-5">
-              <span className="absolute -left-4 flex h-8 w-8 items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
-                <Book className="text-white" />
+              <span className="absolute -left-4 flex h-8 w-8 -translate-y-[6px] items-center justify-center rounded-full bg-black ring-4 ring-white dark:bg-gray-700 dark:ring-gray-900">
+                <Book className="w-4 text-white" />
               </span>
-              <h3 className="mb-2 ml-2 font-medium leading-tight text-white">
+              <h3 className="ml-2 font-medium leading-tight text-black">
                 Mentor
               </h3>
-              <p className="ml-2 max-w-xs text-sm">
+              <p className="ml-2 mt-2 max-w-xs text-sm">
                 Willingness to help coworkers seeking to create a more positive
                 and productive work environment for everyone.
               </p>
