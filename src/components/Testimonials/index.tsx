@@ -38,7 +38,7 @@ export function Testimonials() {
                       src={henrique}
                       alt="profile picture"
                     />
-                    <cite className="pr-3 text-lg font-medium text-white dark:text-white lg:text-2xl lg:text-gray-900">
+                    <cite className="pr-3 text-lg font-medium text-black dark:text-white lg:text-2xl lg:text-gray-900">
                       Henrique Fernandes
                     </cite>
                     <cite className="pl-3 text-xs text-gray-500 dark:text-gray-400 lg:text-sm">
@@ -51,7 +51,7 @@ export function Testimonials() {
                 </figcaption>
 
                 <blockquote>
-                  <p className="my-5 px-5 text-base font-light italic text-white dark:text-white lg:text-lg lg:font-medium lg:text-gray-700">
+                  <p className="my-5 px-5 text-base font-normal italic text-black dark:text-white lg:text-lg lg:font-medium lg:text-gray-700">
                     Mike is an excellent professional, engaged, super
                     analytical, hardworking, communicative and many other skills
                     that make him a professional who fits any type of
@@ -65,19 +65,18 @@ export function Testimonials() {
           <div className="keen-slider__slide number-slide">
             <figure className="flex max-w-2xl items-center justify-center text-center">
               <div>
-                <figcaption className="mt-14 flex items-center justify-center space-x-3">
+                <figcaption className="mt-16 flex items-center justify-center space-x-3">
                   <div className="flex flex-col items-center ">
                     <Image
-                      className="mb-3 h-16 w-16 rounded-full md:h-20 md:w-20"
+                      className="mb-3 mt-16 h-16 w-16 rounded-full md:mt-0 md:h-20 md:w-20"
                       src={murilo}
                       alt="profile picture"
                     />
-                    <cite className="pr-3 text-lg font-medium text-white dark:text-white lg:text-2xl lg:text-gray-900">
+                    <cite className="pr-3 text-lg font-medium text-black dark:text-white lg:text-2xl lg:text-gray-900">
                       Murilo Cunha
                     </cite>
                     <cite className="pl-3 text-xs text-gray-500 dark:text-gray-400 lg:text-sm">
-                      Front-end Developer @Verx Tecnologia e Inovação | Serasa
-                      Experian text-xs lg:{' '}
+                      Front-end Developer @Verx Tecnologia e Inovação{' '}
                     </cite>
                     <cite className="text-xs text-zinc-400 lg:text-sm">
                       Murilo is senior to Mike
@@ -86,7 +85,7 @@ export function Testimonials() {
                 </figcaption>
 
                 <blockquote>
-                  <p className="my-5 px-5 text-base font-light italic text-white dark:text-white lg:text-lg lg:font-medium lg:text-gray-700">
+                  <p className="my-5 px-5 text-base font-normal italic text-black dark:text-white lg:text-lg lg:font-medium lg:text-gray-700">
                     &quot;I recommend Mike as a highly engaged and dedicated
                     professional. He demonstrated great commitment to his
                     activities and always sought to learn and apply new
@@ -110,7 +109,7 @@ export function Testimonials() {
                       src={fernanda}
                       alt="profile picture"
                     />
-                    <cite className="pr-3 text-lg font-medium text-white dark:text-white lg:text-2xl lg:text-gray-900">
+                    <cite className="pr-3 text-lg font-medium text-black dark:text-white lg:text-2xl lg:text-gray-900">
                       Fernanda Monteiro
                     </cite>
                     <cite className="pl-3 text-xs text-gray-500 dark:text-gray-400 lg:text-sm">
@@ -123,7 +122,7 @@ export function Testimonials() {
                 </figcaption>
 
                 <blockquote>
-                  <p className="my-5 px-5 text-base font-light italic text-white dark:text-white lg:text-lg lg:font-medium lg:text-gray-700">
+                  <p className="my-5 px-5 text-base font-normal italic text-black dark:text-white lg:text-lg lg:font-medium lg:text-gray-700">
                     Mike is an amazing professional! He joined the team eager to
                     learn and put what he had already studied into practice, and
                     he was excellent in everything he did. Surely, he will be
