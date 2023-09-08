@@ -12,7 +12,7 @@ export const DarkMode = () => {
         htmlFor="darkmode-toggle"
       >
         <Moon className="absolute bottom-[8px] left-[48px] z-10 h-6 w-6 fill-gray-900" />
-        <Sun className="absolute bottom-[8px] left-[8px] z-10 h-6 w-6 fill-gray-900" />
+        <Sun className="absolute bottom-[9px] left-[9px] z-10 h-[22px] w-[22px] fill-gray-900" />
       </label>
     </>
   )

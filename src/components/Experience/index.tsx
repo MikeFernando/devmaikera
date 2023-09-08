@@ -16,7 +16,7 @@ export const Experience = () => {
             </p>
 
             {/* <!-- [2020] --> */}
-            <div className="relative mb-5 flex flex-col rounded-lg bg-gray-100 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] sm:flex-row sm:gap-5">
+            <div className="relative mb-5 flex flex-col rounded-lg bg-neutral-50 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] sm:flex-row sm:gap-5">
               <div className="flex-1 flex-col p-5 font-montserrat">
                 <span className="absolute -left-[56px] top-[23px] text-sm font-normal">
                   2020
@@ -50,7 +50,7 @@ export const Experience = () => {
             </div>
 
             {/* <!-- [2021] --> */}
-            <div className="relative mb-5 flex flex-col rounded-lg bg-gray-100 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] sm:flex-row sm:gap-5 ">
+            <div className="relative mb-5 flex flex-col rounded-lg bg-neutral-50 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] sm:flex-row sm:gap-5 ">
               <div className="flex-1 flex-col gap-y-[10px] p-5 font-montserrat">
                 <span className="absolute -left-[56px] top-[23px] text-sm font-normal">
                   2021
@@ -89,7 +89,7 @@ export const Experience = () => {
             </div>
 
             {/* <!-- [2023] --> */}
-            <div className="relative mb-5 flex flex-col rounded-lg bg-gray-100 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] sm:flex-row sm:gap-5 ">
+            <div className="relative mb-5 flex flex-col rounded-lg bg-neutral-50 shadow-md duration-500 hover:!scale-100 group-hover:scale-[0.99] sm:flex-row sm:gap-5 ">
               <div className="flex-1 flex-col gap-y-[10px] p-5 font-montserrat">
                 <span className="absolute -left-[56px] top-[23px] text-sm font-normal">
                   2023
