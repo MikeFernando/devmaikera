@@ -9,7 +9,7 @@ export const Experience = () => {
         </h2>
         <ol className="group mt-6 dark:border-gray-700 lg:mt-0 lg:flex-1 lg:border-l lg:border-gray-200">
           <div className="min-w-[300px] flex-col items-center justify-center sm:flex-1 lg:pl-20">
-            <p className="mb-8 flex flex-wrap text-center text-base font-normal text-zinc-500 lg:text-xl">
+            <p className="mb-8 flex flex-wrap text-center text-base font-normal text-zinc-500 dark:text-zinc-400 lg:text-xl">
               During my time at Pixter Technologies I&apos;ve had the
               opportunity to work on challenging projects, learn from incredibly
               talented people and build friendships.
