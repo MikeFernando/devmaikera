@@ -6,6 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      darkMode: 'class',
       fontFamily: {
         sans: ['var(--font-inter)'],
         montserrat: ['var(--font-montserrat)'],
@@ -18,6 +19,8 @@ module.exports = {
       colors: {
         varianteBlue: '#2a85ff',
         varianteBlueHover: '#297ef0',
+        'cinza-800': '#272b30',
+        'cinza-900': '#1f2328',
       },
       boxShadow: {
         darkMode: 'inset 0px 5px 15px rgba(0, 0, 0, 0.4)',
