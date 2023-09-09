@@ -11,14 +11,14 @@ import { Mentor } from './Mentor'
 
 export const Skills = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-50 to-white pb-10 lg:pb-0 lg:shadow-skills ">
-      <div className="mx-auto flex max-w-7xl flex-col items-center pt-16">
+    <div className="from-gray-50 to-white pb-10 dark:bg-gradient-to-b dark:from-cinza-800 dark:to-cinza-900 lg:pb-0 dark:lg:shadow-xl">
+      <div className="mx-auto flex max-w-7xl flex-col items-center pt-16 dark:rounded-3xl dark:bg-gradient-to-b dark:from-cinza-800 dark:to-black">
         <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span className="bg-gradient-to-r from-black to-gray-200 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-black to-gray-200 bg-clip-text text-transparent dark:from-white dark:to-cinza-900">
             Hi, I’m Mike Fernando
           </span>{' '}
         </h1>
-        <p className="mx-auto mb-10 mt-5 max-w-2xl px-5 text-center text-base font-normal text-gray-700 lg:text-xl">
+        <p className="mx-auto mb-10 mt-5 max-w-2xl px-5 text-center text-base font-normal text-gray-700 dark:text-zinc-400 lg:text-xl">
           Since I started my journey in 2020 I have been working continuously to
           improve my skills and excel, looking for new problem solvers
           collaborating as a team to create efficient and innovative software
@@ -73,24 +73,24 @@ export const Skills = () => {
           </ol>
         </div>
 
-        <div className="mx-auto mb-8 hidden w-full px-2 md:max-w-3xl lg:flex lg:max-w-7xl lg:items-center lg:justify-center lg:gap-12">
+        <div className="mx-auto mb-8 hidden w-full px-2 dark:pb-10 md:max-w-3xl lg:flex lg:max-w-7xl lg:items-center lg:justify-center lg:gap-12">
           {/* DEVICE 1 */}
-          <div className="relative rounded-[2.5rem] border-[14px] border-gray-300 bg-gray-300 dark:border-gray-800 dark:bg-gray-800 lg:h-[600px] lg:w-[300px]">
-            <div className="h-[572px] w-[272px] overflow-hidden rounded-[2rem] bg-gray-50 dark:bg-gray-800">
+          <div className="relative rounded-[2.5rem] border-[14px] border-gray-300 bg-gray-300  dark:border-cinza-800 dark:bg-cinza-800 lg:h-[600px] lg:w-[300px]">
+            <div className="h-[572px] w-[272px] overflow-hidden rounded-[2rem] bg-gray-50 dark:bg-cinza-800">
               <ul className="text group flex flex-wrap gap-8 lg:mx-auto lg:flex-row lg:gap-8">
-                <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-5 py-10">
+                <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-5 py-10 dark:bg-gray-100">
                   <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
                     <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-black to-gray-500 shadow-lg shadow-slate-700/50 group-hover:bg-gradient-to-br">
                       <Wand2 className="text-white" />
                     </div>
-                    <h3 className="mb-4 text-xl">Designer</h3>
-                    <p className="min-h-[100px] pb-5 text-center text-sm">
+                    <h3 className="mb-4 text-xl dark:text-black ">Designer</h3>
+                    <p className="min-h-[100px] pb-5 text-center text-sm dark:text-black">
                       I value simple content structure, clean design patterns,
                       and thoughtful interactions.
                     </p>
                   </div>
 
-                  <ul className="mt-4 max-w-md list-inside space-y-3 text-xs text-gray-500 dark:text-gray-400">
+                  <ul className="mt-4 max-w-md list-inside space-y-3 text-xs text-gray-500 dark:text-gray-600">
                     <li className="flex items-center space-x-3">
                       <IconCheck className="h-4 w-4 text-blue-500" />
                       <span>UI Design</span>
@@ -120,7 +120,7 @@ export const Skills = () => {
                       <IconCheck className="h-4 w-4 text-blue-500" />
                       <span>
                         Protótipo:{' '}
-                        <span className="font-semibold text-gray-900 dark:text-white">
+                        <span className="font-semibold text-gray-900 dark:text-black">
                           product
                         </span>
                       </span>
@@ -130,7 +130,7 @@ export const Skills = () => {
                       <IconCheck className="h-4 w-4 text-blue-500" />
                       <span>
                         Interfaces:{' '}
-                        <span className="font-semibold text-gray-900 dark:text-white">
+                        <span className="font-semibold text-gray-900 dark:text-black">
                           web & mobile
                         </span>
                       </span>
@@ -142,24 +142,24 @@ export const Skills = () => {
           </div>
 
           {/* DEVICE 2 */}
-          <div className="relative h-[600px] w-[300px] rounded-[2.5rem] border-[14px] border-gray-300 bg-gray-300 dark:border-gray-800 dark:bg-gray-800">
-            <div className="h-[572px] w-[272px] overflow-hidden rounded-[2rem] bg-gray-50 dark:bg-gray-800">
+          <div className="relative rounded-[2.5rem] border-[14px] border-gray-300 bg-gray-300  dark:border-cinza-800 dark:bg-cinza-800 lg:h-[600px] lg:w-[300px]">
+            <div className="h-[572px] w-[272px] overflow-hidden rounded-[2rem] bg-gray-50 dark:bg-cinza-800">
               <ul className="group flex flex-wrap gap-8 lg:mx-auto lg:flex-row lg:gap-8">
                 <li className="flex w-96 flex-col items-center justify-center bg-gray-50 px-5 py-10">
                   <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
                     <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-black to-gray-500 shadow-lg shadow-slate-700/50 group-hover:bg-gradient-to-br">
                       <Code2 className="text-white" />
                     </div>
-                    <h3 className="mb-4 px-4 text-center text-xl">
+                    <h3 className="mb-4 px-4 text-center text-xl dark:text-black">
                       Frontend Developer
                     </h3>
-                    <p className="min-h-[100px] pb-5 text-center text-sm">
+                    <p className="min-h-[100px] pb-5 text-center text-sm dark:text-black">
                       Technical skills with creativity and attention to detail
                       to create interfaces that delight and captivate users.
                     </p>
                   </div>
 
-                  <ul className="mt-4 max-w-md list-inside space-y-3 text-xs text-gray-500 dark:text-gray-400">
+                  <ul className="mt-4 max-w-md list-inside space-y-3 text-xs text-gray-500 dark:text-gray-600">
                     <li className="flex items-center space-x-3">
                       <IconCheck className="h-4 w-4 text-blue-500" />
                       <span>Html</span>
@@ -211,22 +211,22 @@ export const Skills = () => {
           </div>
 
           {/* DEVICE 3 */}
-          <div className="relative h-[600px] w-[300px] rounded-[2.5rem] border-[14px] border-gray-300 bg-gray-300 dark:border-gray-800 dark:bg-gray-800">
-            <div className="h-[572px] w-[272px] overflow-hidden rounded-[2rem] bg-gray-50 dark:bg-gray-800">
+          <div className="relative rounded-[2.5rem] border-[14px] border-gray-300 bg-gray-300  dark:border-cinza-800 dark:bg-cinza-800 lg:h-[600px] lg:w-[300px]">
+            <div className="h-[572px] w-[272px] overflow-hidden rounded-[2rem] bg-gray-50 dark:bg-cinza-800">
               <ul className="group flex flex-wrap gap-8 lg:mx-auto lg:flex-row lg:gap-8">
                 <li className="flex w-96 flex-col items-center justify-center rounded-2xl bg-gray-50 px-5 py-10">
                   <div className="flex flex-col items-center justify-center border-b-[1px] border-zinc-300">
                     <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-black to-gray-500 shadow-lg shadow-slate-700/50 group-hover:bg-gradient-to-br">
                       <Book className="text-white" />
                     </div>
-                    <h3 className="mb-4 text-xl">Mentor</h3>
-                    <p className="min-h-[100px] pb-5 text-center text-sm">
+                    <h3 className="mb-4 text-xl dark:text-black">Mentor</h3>
+                    <p className="min-h-[100px] pb-5 text-center text-sm dark:text-black">
                       Willingness to help coworkers seeking to create a more
                       positive and productive work environment for everyone.
                     </p>
                   </div>
 
-                  <ul className="mt-4 max-w-md list-inside space-y-3 text-xs text-gray-500 dark:text-gray-400">
+                  <ul className="mt-4 max-w-md list-inside space-y-3 text-xs text-gray-500 dark:text-gray-600">
                     <li className="flex items-center space-x-3">
                       <IconCheck className="h-4 w-4 text-blue-500" />
                       <span>Contributions to the Team</span>

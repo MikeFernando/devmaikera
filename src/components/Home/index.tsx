@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 export const Main = () => {
   return (
-    <main className="dark:bg-cinza-900 mx-5 mt-24 flex h-[480px] flex-col items-center justify-between overflow-hidden rounded-3xl border border-gray-100 bg-neutral-50  shadow-md dark:border-neutral-800 xxs:h-auto md:mt-24 lg:mx-auto lg:mt-28 lg:max-w-5xl xl:max-w-7xl">
+    <main className="mx-5 mt-24 flex h-[480px] flex-col items-center justify-between overflow-hidden rounded-3xl border border-gray-100 bg-neutral-50 shadow-md  dark:border-neutral-800 dark:bg-cinza-900 xxs:h-auto md:mt-24 lg:mx-auto lg:mt-28 lg:max-w-5xl xl:max-w-7xl">
       <div className="flex flex-col items-center">
         <h1 className="min-320:text-4xl mt-8 text-center text-[28px] font-bold leading-tight tracking-wide text-zinc-800 dark:text-white sm:pt-10 md:text-5xl lg:text-5xl xl:text-6xl">
           Software Engineer <br /> web & Mobile{' '}
