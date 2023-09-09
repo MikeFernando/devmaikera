@@ -21,12 +21,12 @@ export const Header = () => {
         <div>
           <input type="checkbox" id="darkmode-toggle" className="peer hidden" />
           <label
-            className="dark:bg-cinza-900 relative block h-[41px] w-[80px] cursor-pointer rounded-[200px] bg-gray-100 after:absolute after:left-[3px] after:top-[3px] after:h-[35px] after:w-[35px] after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:delay-300 peer-checked:after:left-[41px] peer-checked:after:bg-gradient-to-l peer-checked:after:from-[#777] peer-checked:after:to-gray-600 peer-checked:after:transition-all peer-checked:after:delay-300 dark:border-gray-400"
+            className="relative block h-[41px] w-[80px] cursor-pointer rounded-[200px] bg-gray-100 after:absolute after:left-[3px] after:top-[3px] after:h-[35px] after:w-[35px] after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:delay-300 peer-checked:after:left-[41px] peer-checked:after:bg-gradient-to-l peer-checked:after:from-[#777] peer-checked:after:to-gray-600 peer-checked:after:transition-all peer-checked:after:delay-300 dark:border-gray-400 dark:bg-cinza-900"
             htmlFor="darkmode-toggle"
           >
             <Moon
               onClick={() => setTheme('dark')}
-              className="absolute bottom-[8px] left-[48px] z-10 h-6 w-6 fill-white"
+              className="absolute bottom-[9px] left-[48px] z-10 h-6 w-6 fill-gray-900"
             />
             <SunDim
               onClick={() => setTheme('light')}
@@ -67,7 +67,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="dark:bg-cinza-800 fixed z-50 h-20 w-full bg-white lg:h-28 lg:pt-6">
+    <header className="fixed z-50 h-20 w-full bg-white dark:bg-cinza-800 lg:h-28 lg:pt-6">
       <div className="mx-auto flex items-center justify-between px-5 pt-4 md:max-w-4xl lg:max-w-5xl lg:px-0 lg:pt-0 xl:max-w-7xl ">
         <div>
           <Logo className="h-14 w-14 -rotate-[8deg] fill-gray-900 dark:fill-white" />
