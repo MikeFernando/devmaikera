@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <body className={inter.className}>
-        <div className="dark:dark:bg-cinza-800 overflow-hidden bg-white">
+        <div className="overflow-hidden bg-white dark:bg-cinza-800 ">
           {children}
         </div>
       </body>
