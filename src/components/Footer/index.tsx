@@ -1,5 +1,5 @@
-import { Github, Instagram, Linkedin } from 'lucide-react'
 import React from 'react'
+import { Github, Instagram, Linkedin } from 'lucide-react'
 
 export const Footer = () => {
   return (

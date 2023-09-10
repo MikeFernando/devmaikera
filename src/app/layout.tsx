@@ -1,6 +1,9 @@
+'use client'
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
+import { ThemeProvider } from 'next-themes'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,9 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <body className={inter.className}>
-        <div className="overflow-hidden bg-white dark:bg-cinza-800 ">
-          {children}
-        </div>
+        <ThemeProvider enableSystem={true} attribute="class">
+          <div className="overflow-hidden bg-white dark:bg-cinza-800 ">
+            {children}
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   )
