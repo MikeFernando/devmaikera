@@ -4,10 +4,9 @@ import React, { useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 
-import { SunDim, X } from 'lucide-react'
+import { Menu, SunDim, X } from 'lucide-react'
 import { Moon } from './Moon'
 import { Logo } from './Logo'
-import { SvgMenu } from './MenuHamburger/SvgMenu'
 import { MenuHamburger } from './MenuHamburger'
 
 export const Header = () => {
@@ -44,7 +43,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="fixed z-50 h-20 w-full bg-white dark:bg-cinza-800 lg:h-28 lg:pt-6">
+    <header className="z-50 h-20 w-full bg-white dark:bg-cinza-800 lg:h-28 lg:pt-6">
       <div className="mx-auto flex items-center justify-between px-5 pt-4 md:max-w-4xl lg:max-w-5xl lg:px-0 lg:pt-0 xl:max-w-7xl ">
         <div>
           <Logo className="h-14 w-14 -rotate-[8deg] fill-gray-900 dark:fill-white" />
@@ -89,18 +88,16 @@ export const Header = () => {
 
         {/* menu mobile */}
         <div className="flex items-center gap-4 md:hidden">
-          <button className="rounded-full border border-gray-200 p-1">
-            <SunDim size={20} className="text-gray-600" />
-          </button>
+          {renderThemeChanger()}
 
           <button
             onClick={handleMenu}
             className="flex h-11 w-11 items-center justify-center rounded-full border border-gray-200 p-2"
           >
             {open === true ? (
-              <X className='className="h-6 fill-gray-800" w-6' />
+              <X className='className="w-6 h-6 fill-gray-800 dark:fill-white' />
             ) : (
-              <SvgMenu className="h-6 w-6 fill-gray-800" />
+              <Menu className="h-6 w-6 text-cinza-900 dark:fill-white dark:text-white " />
             )}
           </button>
         </div>

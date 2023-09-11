@@ -13,7 +13,7 @@ import { Testimonials } from '../Testimonials'
 
 export const Skills = () => {
   return (
-    <section className="mx-auto flex max-w-7xl flex-col md:mt-8">
+    <section id="skills" className="mx-auto flex max-w-7xl flex-col md:mt-8">
       <h2 className="mb-4 text-center text-3xl font-extrabold text-gray-800 dark:text-white md:text-5xl lg:text-6xl">
         <span className="bg-gradient-to-r from-cinza-800 to-gray-200 bg-clip-text text-transparent dark:from-white dark:to-cinza-900">
           Hi, I’m Mike Fernando
