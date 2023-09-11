@@ -2,7 +2,10 @@ import React from 'react'
 
 export const Experience = () => {
   return (
-    <section className="mx-auto flex flex-col items-center justify-center p-5 md:min-h-screen lg:-mb-32 lg:max-w-7xl lg:py-20">
+    <section
+      id="experience"
+      className="mx-auto flex flex-col items-center justify-center p-5 md:min-h-screen lg:-mb-32 lg:max-w-7xl lg:py-20"
+    >
       <div className="flex flex-col items-center justify-center text-4xl font-bold leading-tight md:mb-24 lg:flex lg:flex-row lg:items-center lg:gap-28">
         <h2 className="mt-8 bg-gradient-to-tr from-gray-200 to-gray-300 bg-clip-text font-montserrat text-3xl font-extrabold uppercase text-transparent dark:bg-gradient-to-br dark:from-gray-200 dark:to-black sm:text-4xl lg:max-w-xs lg:break-all lg:text-9xl lg:tracking-wider">
           Experience

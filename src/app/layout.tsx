@@ -19,10 +19,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="antialiased">
+    <html lang="en" className="scroll-smooth antialiased">
       <body className={inter.className}>
         <ThemeProvider enableSystem={true} attribute="class">
-          <div className="overflow-hidden bg-white dark:bg-cinza-800 ">
+          <div className="overflow-hidden bg-white dark:bg-cinza-800">
             {children}
           </div>
         </ThemeProvider>
