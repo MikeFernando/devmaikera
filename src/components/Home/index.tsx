@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import apple from '@/assets/apple.png'
+import spider from '@/assets/spider.png'
 
 import { MobileSlider } from '../Slider/Mobile'
 import Link from 'next/link'
@@ -27,14 +27,14 @@ export const Main = () => {
           type="button"
           className="my-3 rounded-full bg-varianteBlue px-4 py-3 text-center text-xs font-medium text-white transition-all hover:bg-varianteBlueHover sm:my-4 sm:px-5 sm:py-3 md:text-sm"
         >
-          See projects
+          All projects
         </Link>
       </div>
 
       <div>
         <Image
           className="mt-5 w-full overflow-hidden xxs:hidden"
-          src={apple}
+          src={spider}
           alt="projects"
           priority
         />
