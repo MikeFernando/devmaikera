@@ -4,11 +4,11 @@ import * as React from 'react'
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
 
-import spiderman from '@/assets/projects/spiderman-capa.png'
-import apple from '@/assets/projects/apple-capa.png'
-import bikecraft from '@/assets/projects/bikecraft-capa.png'
-import wordtrip from '@/assets/projects/wortrip-capa.png'
-import untitledui from '@/assets/projects/untitledui-capa.png'
+import spiderman from '@/assets/slider/spiderman-capa.png'
+import apple from '@/assets/slider/apple-capa.png'
+import bikecraft from '@/assets/slider/bikecraft-capa.png'
+import wordtrip from '@/assets/slider/wortrip-capa.png'
+import untitledui from '@/assets/slider/untitledui-capa.png'
 import Image from 'next/image'
 
 export function MobileSlider() {
