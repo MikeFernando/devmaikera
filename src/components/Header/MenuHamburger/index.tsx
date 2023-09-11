@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export const MenuHamburger = () => {
@@ -22,12 +23,12 @@ export const MenuHamburger = () => {
         >
           Skills
         </a>
-        <a
+        <Link
           className="bg-white text-cinza-900 dark:bg-cinza-800 dark:text-white"
-          href="#"
+          href="/projects"
         >
           Projects
-        </a>
+        </Link>
       </div>
     </div>
   )
