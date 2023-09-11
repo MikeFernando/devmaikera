@@ -9,8 +9,6 @@ import wordtrip from '@/assets/slider/wortrip-capa.png'
 import bikecraft from '@/assets/slider/bikecraft-capa.png'
 import apple from '@/assets/slider/apple-capa.png'
 
-// import { Loading } from '@/components/Loading'
-
 export default function Projects() {
   return (
     <div className="bg-white dark:bg-cinza-900">
@@ -23,8 +21,23 @@ export default function Projects() {
             Projects
           </h1>
         </div>
-        <div className="mt-10 flex items-center justify-center">
+        <div className="flex items-center justify-center md:mt-10">
           <ul className="grid grid-cols-1 gap-10 p-5 md:grid-cols-2">
+            <li className="rounded-lg bg-gray-100 p-6 dark:bg-cinza-900">
+              <Link
+                href="https://mikefernando-bikecraft.netlify.app/"
+                target="_blank"
+              >
+                <Image
+                  width={500}
+                  height={500}
+                  priority
+                  src={bikecraft}
+                  alt="bikecraft"
+                  className="rounded-md"
+                />
+              </Link>
+            </li>
             <li className="rounded-lg bg-gray-100 p-6 dark:bg-cinza-900">
               <Link
                 href="https://mikefernando-spiderman.netlify.app/"
@@ -50,22 +63,7 @@ export default function Projects() {
                   height={500}
                   priority
                   src={wordtrip}
-                  alt="spiderman"
-                  className="rounded-md"
-                />
-              </Link>
-            </li>
-            <li className="rounded-lg bg-gray-100 p-6 dark:bg-cinza-900">
-              <Link
-                href="https://mikefernando-bikecraft.netlify.app/"
-                target="_blank"
-              >
-                <Image
-                  width={500}
-                  height={500}
-                  priority
-                  src={bikecraft}
-                  alt="spiderman"
+                  alt="wordtrip"
                   className="rounded-md"
                 />
               </Link>
