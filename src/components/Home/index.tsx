@@ -2,11 +2,11 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import spider from '@/assets/spider.png'
 
 import { MobileSlider } from '../Slider/Mobile'
-import Link from 'next/link'
 
 export const Main = () => {
   return (
