@@ -10,6 +10,7 @@ export const Footer = () => {
           <a
             href="https://www.linkedin.com/in/mike-fernando3g/"
             target="_blank"
+            aria-label="Linkedin"
           >
             <Linkedin />
           </a>
@@ -17,6 +18,7 @@ export const Footer = () => {
             href="https://www.instagram.com/eai_mikera/?next=%2F"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Instagram"
           >
             <Instagram />
           </a>
@@ -24,6 +26,7 @@ export const Footer = () => {
             href="https://github.com/MikeFernando"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Github"
           >
             <Github />
           </a>

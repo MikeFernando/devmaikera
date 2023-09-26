@@ -141,6 +141,7 @@ export function Testimonials() {
           ].map((idx) => {
             return (
               <button
+                aria-label="dots"
                 key={idx}
                 onClick={() => {
                   instanceRef.current?.moveToIdx(idx)

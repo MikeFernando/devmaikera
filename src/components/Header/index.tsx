@@ -20,6 +20,7 @@ export const Header = () => {
 
   function renderThemeChanger() {
     const currentTheme = theme === 'system' ? systemTheme : theme
+
     if (isClient === true && currentTheme === 'dark') {
       return (
         <div className="cursor-pointer rounded-full bg-cinza-900 p-2">
@@ -91,6 +92,7 @@ export const Header = () => {
           {renderThemeChanger()}
 
           <button
+            aria-label="menu mobile"
             onClick={handleMenu}
             className="flex h-11 w-11 items-center justify-center rounded-full border border-gray-200 p-2"
           >

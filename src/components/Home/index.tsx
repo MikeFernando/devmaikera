@@ -25,7 +25,7 @@ export const Main = () => {
         <Link
           href="/projects"
           type="button"
-          className="my-3 rounded-full bg-varianteBlue px-4 py-3 text-center text-xs font-medium text-white transition-all hover:bg-varianteBlueHover sm:my-4 sm:px-5 sm:py-3 md:text-sm"
+          className="mb-2 mr-2 mt-2 rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
         >
           All projects
         </Link>

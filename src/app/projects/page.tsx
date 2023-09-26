@@ -14,7 +14,7 @@ export default function Projects() {
     <div className="bg-white dark:bg-cinza-900">
       <main className="mx-auto min-h-screen max-w-7xl bg-gray-50 dark:bg-cinza-800">
         <div className="flex items-center px-5">
-          <Link href="/" className="mr-auto">
+          <Link href="/" aria-label="back" className="mr-auto">
             <ArrowLeft className="text-cinza-900 dark:text-white" />
           </Link>
           <h1 className="mr-auto py-10 text-center text-3xl font-extrabold text-cinza-900 dark:text-white md:text-5xl">

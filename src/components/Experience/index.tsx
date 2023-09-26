@@ -10,7 +10,7 @@ export const Experience = () => {
         <h2 className="mt-8 bg-gradient-to-tr from-gray-200 to-gray-300 bg-clip-text font-montserrat text-3xl font-extrabold uppercase text-transparent dark:bg-gradient-to-br dark:from-gray-200 dark:to-black sm:text-4xl lg:max-w-xs lg:break-all lg:text-9xl lg:tracking-wider">
           Experience
         </h2>
-        <ol className="group mt-6 dark:border-gray-700 lg:mt-0 lg:flex-1 lg:border-l lg:border-gray-200">
+        <div className="group mt-6 dark:border-gray-700 lg:mt-0 lg:flex-1 lg:border-l lg:border-gray-200">
           <div className="min-w-[300px] flex-col items-center justify-center sm:flex-1 lg:pl-20">
             <p className="mb-8 flex flex-wrap text-center text-base font-normal text-zinc-500 dark:text-zinc-400 lg:text-xl">
               During my time at Pixter Technologies I&apos;ve had the
@@ -144,7 +144,7 @@ export const Experience = () => {
               </div>
             </div>
           </div>
-        </ol>
+        </div>
       </div>
     </section>
   )

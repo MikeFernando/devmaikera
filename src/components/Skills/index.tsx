@@ -153,9 +153,6 @@ export const Skills = () => {
               <div>
                 <h3 className="flex items-center justify-center gap-3 text-lg font-extrabold dark:text-white lg:text-2xl">
                   NodeJS{' '}
-                  <span className="mr-2 rounded bg-[#8cc84b] px-2.5 py-0.5 text-xs font-medium uppercase text-[#3b6630] dark:bg-[#3b6630] dark:text-[#8cc84b]">
-                    started to study
-                  </span>
                 </h3>
                 <span className="text-sm dark:text-gray-400 lg:text-lg">
                   Back-end
