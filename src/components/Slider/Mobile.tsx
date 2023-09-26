@@ -37,45 +37,40 @@ export function MobileSlider() {
           <Image
             className="keen-slider__slide px-0 sm:p-5"
             src={spiderman}
-            alt="imagem 2"
+            alt="spiderman"
             width={850}
-            priority
           />
         </div>
         <div>
           <Image
             className="keen-slider__slide px-0 sm:p-5"
             src={apple}
-            alt="imagem 2"
+            alt="apple"
             width={850}
-            priority
           />
         </div>
         <div>
           <Image
             className="keen-slider__slide px-0 sm:p-5"
             src={bikecraft}
-            alt="imagem 2"
+            alt="bikecraft"
             width={850}
-            priority
           />
         </div>
         <div>
           <Image
             className="keen-slider__slide px-0 sm:p-5"
             src={wordtrip}
-            alt="imagem 2"
+            alt="wordtrip"
             width={850}
-            priority
           />
         </div>
         <div>
           <Image
             className="keen-slider__slide px-0 sm:p-5"
             src={untitledui}
-            alt="imagem 2"
+            alt="untitled ui"
             width={850}
-            priority
           />
         </div>
       </div>
